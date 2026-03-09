@@ -10,10 +10,3 @@ __pycache__/
 .env
 api_key.txt
 
-# Fichiers internes
-PROMPT_CLAUDE.md
-CHANGELOG.md
-.claude/
-docs/CONTEXT.md
-docs/JOURNAL.md
-docs/TODO.md
