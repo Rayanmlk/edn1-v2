@@ -1,0 +1,14 @@
+pandas
+openpyxl
+scikit-learn
+joblib
+streamlit
+duckdb
+pyarrow
+altair
+plotly
+
+# Dépendances pour la page Chat (installer selon le fournisseur LLM choisi)
+ollama               # LLM local via Ollama — fournisseur par défaut
+google-generativeai  # Gemini Flash gratuit (alternative)
+sentence-transformers  # Recherche sémantique (étape 4)

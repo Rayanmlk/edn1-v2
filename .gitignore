@@ -1,0 +1,19 @@
+data/input/
+data/processed/
+data/models/
+__pycache__/
+*.pyc
+*.joblib
+*.parquet
+*.npy
+*.duckdb
+.env
+api_key.txt
+
+# Fichiers internes
+PROMPT_CLAUDE.md
+CHANGELOG.md
+.claude/
+docs/CONTEXT.md
+docs/JOURNAL.md
+docs/TODO.md
