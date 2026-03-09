@@ -27,8 +27,8 @@ EDN1_v2/
 │   ├── 01_extract.py        # Lecture Excel, nettoyage, normalisation
 │   ├── 02_classify.py       # Classification NLP (entraînement + inférence)
 │   ├── 03_to_parquet.py     # Conversion JSON → Parquet
-│   ├── 04_embeddings.py     # Calcul des embeddings sémantiques (optionnel)
-│   └── eval.py              # Évaluation du modèle (score honnête / optimiste)
+│   ├── eval.py              # Évaluation du modèle (score honnête / optimiste)
+│   
 ├── nlp/
 │   ├── classifier.py        # Modèle TF-IDF + Logistic Regression
 │   ├── taxonomy.py          # 13 labels et leurs sous-catégories
@@ -43,7 +43,7 @@ EDN1_v2/
 │   └── utils/
 │       ├── db.py            # Connexion DuckDB
 │       ├── llm.py           # Abstraction LLM (Ollama / Gemini / Claude)
-│       └── embeddings.py    # Recherche sémantique par similarité cosinus
+│       
 ├── data/
 │   ├── input/               # Fichiers source — non versionnés
 │   └── processed/           # Fichiers intermédiaires — non versionnés
