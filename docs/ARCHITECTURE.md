@@ -43,7 +43,6 @@ EDN1_v2/
 │       └── charts.py       # Fonctions de visualisation Altair/Plotly
 │
 ├── docs/
-│   ├── CONTEXT.md          # Ce que Claude doit savoir sur le projet
 │   ├── ARCHITECTURE.md     # Ce fichier
 │   └── TODO.md             # Plan de travail priorisé
 │
