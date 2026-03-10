@@ -39,7 +39,7 @@ EDN1_v2/
 │   │   ├── 1_Exploration.py # Table filtrable + export CSV
 │   │   ├── 2_Statistiques.py # Distribution, évolution temporelle, par pôle
 │   │   ├── 3_Pivot.py       # Tableau croisé + heatmap
-│   │   └── 4_Chat.py        # Assistant IA (text-to-SQL + recherche sémantique)
+│   │   └── 4_Chat.py        # Assistant IA (text-to-SQL)
 │   └── utils/
 │       ├── db.py            # Connexion DuckDB
 │       ├── llm.py           # Abstraction LLM (Ollama / Gemini / Claude)
