@@ -21,8 +21,7 @@ ils ne voient jamais les noms des colonnes.
 Note sur la classification hiérarchique :
     Une approche hiérarchique (1 modèle sous_label par label) a été testée
     et n'apporte que +3.4% sur le sous_label (49.6% → 53.0%). Le gain ne
-    justifie pas la complexité supplémentaire. Elle est conservée pour l'Etape 7
-    si on dispose de plus de données d'entraînement.
+    justifie pas la complexité supplémentaire. 
 """
 
 import logging
