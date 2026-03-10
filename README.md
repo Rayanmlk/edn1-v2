@@ -10,7 +10,7 @@ Plateforme d'analyse et de classification automatique des saisines reçues par l
 
 - **Classification NLP** : un modèle TF-IDF + Régression Logistique, entraîné sur des données pré-labellisées, classifie chaque saisine en catégorie principale et sous-catégorie
 - **Dashboard interactif** : 5 pages Streamlit pour explorer, filtrer, croiser et visualiser les données
-- **Assistant IA** : deux modes — questions chiffrées en langage naturel (text-to-SQL) et recherche sémantique par similarité vectorielle
+- **Assistant IA** : questions chiffrées en langage naturel (text-to-SQL)
 - **Stockage optimisé** : format Parquet via DuckDB (0.6 Mo au lieu de ~15 Mo JSON)
 
 ## Ce qui est mieux par rapport à la version précédente
