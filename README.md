@@ -72,9 +72,6 @@ python pipeline/02_classify.py
 # 3. Conversion en Parquet
 python pipeline/03_to_parquet.py
 
-# 4. Embeddings sémantiques — optionnel, pour la recherche sémantique dans le Chat
-pip install sentence-transformers
-python pipeline/04_embeddings.py
 ```
 
 ---
@@ -99,15 +96,6 @@ Pour Ollama :
 # Installer depuis ollama.com, puis :
 ollama pull mistral
 ```
-
-### Recherche sémantique
-Descriptions conceptuelles : *"problème de bourse non versée"*, *"refus d'inscription en master"*
-
-Le modèle `paraphrase-multilingual-MiniLM-L12-v2` encode la requête et retrouve les saisines les plus proches par similarité cosinus — sans se limiter aux mots exacts.
-
-Nécessite d'avoir exécuté `pipeline/04_embeddings.py`.
-
----
 
 ## Qualité de la classification
 
