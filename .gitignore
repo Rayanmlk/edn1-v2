@@ -1,0 +1,12 @@
+data/input/
+data/processed/
+data/models/
+__pycache__/
+*.pyc
+*.joblib
+*.parquet
+*.npy
+*.duckdb
+.env
+api_key.txt
+
